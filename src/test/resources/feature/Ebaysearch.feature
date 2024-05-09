@@ -8,6 +8,8 @@ Feature: Amazon Search Validation
     Then i validate the search results
     And I should close the browser
 
+
+
   Scenario: Amazon Search by hardcoding the value from feature file
     Given I should open the browser based on the value 1
     And I navigate to the URL
