@@ -18,6 +18,8 @@ Background: preconditions
     
     
     
+    
+    
   #@sanity
   #Scenario: Amazon search by hardcoding the values from step definition
      #When I enter the product name and category
