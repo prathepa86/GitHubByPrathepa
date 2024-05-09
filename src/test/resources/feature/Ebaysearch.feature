@@ -10,6 +10,8 @@ Feature: Amazon Search Validation
 
 
 
+
+
   Scenario: Amazon Search by hardcoding the value from feature file
     Given I should open the browser based on the value 1
     And I navigate to the URL
