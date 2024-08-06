@@ -14,7 +14,7 @@ public  WebDriver launchBrowser() {
 	if(driver==null) {
 switch (iBrowser) {
 case 1:
-	System.out.println("User option is "+iBrowser+",So invoking chrome browser");
+	System.out.println("User option is "+iBrowser+",So invoking chrome browser  Git testing  :");
 	driver = new ChromeDriver();
 	break;
 case 2:
@@ -22,7 +22,7 @@ case 2:
 	driver = new EdgeDriver();
 	break;
 case 3:
-	System.out.println("User option is "+iBrowser+",So invoking firefox browser");
+	System.out.println("User option is "+iBrowser+",So       invoking firefox browser");
 	driver = new FirefoxDriver();
 	break;
 default:

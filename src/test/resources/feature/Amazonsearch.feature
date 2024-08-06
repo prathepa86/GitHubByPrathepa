@@ -1,7 +1,7 @@
 Feature: Amazon Search Validation
 Background: preconditions
 
-  And I should navigate to the URL
+  And I    should navigate to the URL
   
   @smoke
   Scenario: Amazon search by hardcoding the values from feature file using step parameter using data table as a Map

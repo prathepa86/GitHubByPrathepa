@@ -19,6 +19,7 @@ public class PicoTestContext {
 		}
 
 		public PageObjectManager getPageObjectManager() {
+			System.out.println("Testing for learning git");
 			return pageObjectManager;
 		}
 		
